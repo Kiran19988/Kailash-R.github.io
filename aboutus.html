@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <style>/* Global styles */
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, sans-serif;
+          font-size: 16px;
+          line-height: 1.5;
+          color: #333;
+          background-color: red;
+          background-image: url("_d41ec317-2f7b-4bbe-a057-28b746cfd600.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+        a {
+          color: #333;
+          text-decoration: none;
+          background-image: url("");       
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+        a:hover {
+          text-decoration: underline;
+        }
+        
+        /* Header styles */
+        
+        header {
+          background-color: rgb(12, 226, 245);
+          
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 999;
+          background-image: url("_d41ec317-2f7b-4bbe-a057-28b746cfd600.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          color: red;
+        }
+        
+        nav ul {
+          display: flex;
+          list-style: none;
+          padding: 1rem;
+          justify-content: space-between;
+          align-items: center;
+          background-image: url("");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+        nav ul li {
+          margin: 0 1rem;
+          color: red;
+        }
+        
+        nav ul li:first-child {
+          margin-left: 0;
+        }
+        
+        nav ul li:last-child {
+          margin-right: 0;
+        }
+        
+        nav ul li a {
+          display: inline-block;
+          padding: 0.5rem;
+          transition: all 0.3s ease;
+          color: rgb(58, 237, 14);
+        }
+        
+        nav ul li a:hover {
+          background-color: #f7f7f7;
+        }
+        
+        /* About Us styles */
+        
+        .about-us {
+          max-width: 800px;
+          margin: 100px auto;
+          padding: 2rem;
+          text-align: center;
+        }
+        
+        .about-us h2 {
+          margin-bottom: 1rem;
+          color: rgb(89, 231, 13);
+        }
+        
+        .about-us p {
+          margin-bottom: 0.5rem;
+          color: rgb(64, 249, 8);
+        }
+        
+        /* Footer styles */
+        
+        footer {
+          background-color: #050101;
+          padding: 1rem;
+          text-align: center;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          color: rgb(7, 248, 15);
+          
+        }
+        </style>
+        <script>// Select the navigation menu and the menu icon
+            const menu = document.querySelector('nav ul');
+            const menuIcon = document.querySelector('.menu-icon');
+            
+            // Add a click event listener to the menu icon
+            menuIcon.addEventListener('click', () => {
+              // Toggle the 'active' class on the navigation menu
+              menu.classList.toggle('active');
+            });
+            </script>
+</head>
+<body>
+    <header>
+		<nav>
+			<ul>
+				<li><a href="mywebsite.html">Home</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>my name is kailash.</p>
+         <p>I am from asia,india,kerala,pallakkad.</p>
+         <p>currently  I am a student working with my skils.</p>
+    </section>
+    <footer>
+		<p>&copy; 2023 My Website. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>
